@@ -1,0 +1,40 @@
+/* Breadcrumb
+------------------------------------------------------------*/
+.c-breadcrumb--top {
+    p {
+        transform: translate(20px, -38px);
+
+        position: relative;
+
+        &::before {
+            content: url(/assets/img/homeimage.png);
+            position: absolute;
+            top: 2px;
+            left: -22px;
+        }
+    }
+}
+
+.c-breadcrumb--bottom {
+    border: 1px solid #ccc;
+    border-right: none;
+    border-left: none;
+    padding: 6px;
+    margin-top: 116px;
+    padding-left: 120px;
+    margin-left: -100px;
+    margin-right: -100px;
+
+    p {
+        position: relative;
+
+        &::before {
+            content: url(/assets/img/homeimage.png);
+            position: absolute;
+            top: 3px;
+            left: -22px;
+        }
+    }
+
+}
+

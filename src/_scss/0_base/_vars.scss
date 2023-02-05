@@ -1,0 +1,37 @@
+//baseWidth
+$base-width: 1000px;
+
+$main-fonts: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+$font-awe5: fontawesome5;
+//color common
+//------FONT_SIZE-----
+$fs-0: 12px;
+$fs-main: 16px;
+$fs-1: 14px;
+$fs-2: 18px;
+$fs-3: 20px;
+$fs-4: 24px;
+
+//-----COLOR----
+$color-white-1: #fff;
+$color-black-1: #222; 
+$color-green-1: #a3d39c;
+$color-yellow-1: #fff799;
+$color-pink-1: #ffdfdf;     
+$color-orange-1: #f68e56;
+//-----PADDING----
+$pd-0: 20px;
+$pd-1: 30px;
+$pd-2: 40px;
+$pd-3: 100px;
+
+//----MARGIN---
+$mg-0: 20px;
+$mg-1: 30px;
+$mg-2: 40px;
+
+
+@font-face {
+    font-family: fontawesome5;
+    src: url(/assets/font/zxepn-02l2m.ttf);
+}
